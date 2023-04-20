@@ -287,3 +287,16 @@ window.addEventListener("scroll", () => {
 window.addEventListener("load", () => {
     hero_form_wrapper_input.style.height = `${hero_form_wrapper_p.getBoundingClientRect().height}px`
 })
+let hero_list_first = document.querySelector(".main-hero_list.first")
+let hero_list_second = document.querySelector(".main-hero_list.second")
+window.addEventListener("load", () => {
+    hero_list_first.style.height = `${hero_list_second.getBoundingClientRect().height}px`
+})
+
+window.addEventListener("resize", () => {
+    hero_list_first.style.height = `${hero_list_second.getBoundingClientRect().height + 10}px`
+})
+
+window.addEventListener("scroll", () => {
+    hero_list_first.style.height = `${hero_list_second.getBoundingClientRect().height}px`
+})

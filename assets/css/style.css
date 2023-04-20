@@ -1178,6 +1178,10 @@ header.scrolled .logo img {
     color: var(--color-white);
 }
 
+.swiper_hero {
+    overflow-x: hidden;
+}
+
 .swiper-pagination-bullet {
     width: 10px !important;
     height: 5px !important;

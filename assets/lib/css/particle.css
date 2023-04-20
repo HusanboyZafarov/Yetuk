@@ -1,0 +1,17 @@
+canvas {
+    vertical-align: bottom;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#particles-js {
+    position: relative;
+    background-color: var(--main-color);
+    background-repeat: no-repeat;
+    padding: 200px 0 0px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}

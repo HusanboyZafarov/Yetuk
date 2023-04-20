@@ -1,0 +1,485 @@
+@media screen and (max-width:1200px) {
+    :root {
+        --main-color: #09BD00;
+        --color-yellow: #F1D302;
+        --color-purple: #5863F8;
+        --color-dark-blue: #0B3954;
+        --color-white: #EEF0F2;
+        --color-dark: #171D1C;
+        --color-dark-gray: #4A525A;
+        --color-black-gray: #24272B;
+        --size-heading: 45px;
+        --size-big-heading: 76px;
+        --size-small-heading: 30px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .main-partners::before {
+        left: -300px;
+        top: 70px;
+        width: 600px;
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    :root {
+        --main-color: #09BD00;
+        --color-yellow: #F1D302;
+        --color-purple: #5863F8;
+        --color-dark-blue: #0B3954;
+        --color-white: #EEF0F2;
+        --color-dark: #171D1C;
+        --color-dark-gray: #4A525A;
+        --color-black-gray: #24272B;
+        --size-heading: 45px;
+        --size-big-heading: 76px;
+        --size-small-heading: 30px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .main-header_navigation_list {
+        flex-direction: column;
+        position: fixed;
+        right: -700px;
+        top: 0;
+        justify-content: center;
+        z-index: 1001;
+        height: 100vh;
+        padding: 0 50px;
+        background: #171D1C70;
+    }
+
+
+    .header_bg_helper.opened {
+        left: 0;
+    }
+
+    .main-header_navigation_list.opened {
+        right: 0;
+
+    }
+
+    .main-header_navigation_item {
+        margin-top: 30px;
+    }
+
+    .main-header_navigation_list a::before {
+        display: none;
+    }
+
+    .main-header_navigation_list a {
+        color: var(--color-white);
+    }
+
+    .main-header_navigation_list a i {
+        color: var(--color-white);
+    }
+
+    .main-header_navbar_burger {
+        display: block;
+        cursor: pointer;
+        z-index: 1000000;
+        width: 10%;
+    }
+
+    .main-header_navbar {
+        display: flex !important;
+
+    }
+
+    .main-header_navbar_item {
+        width: 10%;
+    }
+
+    .main-header_navigation_item .main-header_navigation_button {
+        width: 100% !important;
+        display: block;
+    }
+
+    .main-header_navigation_item .main-header_navigation_button:hover i {
+        color: var(--color-white);
+    }
+
+    .main-header_navigation_item.service p,
+    .main-header_navigation_item.service p i {
+        color: var(--color-white);
+    }
+
+    .main-header_navigation_item.service p::before {
+        display: none;
+    }
+
+    .main-header_dropdown {
+        box-shadow: none;
+        position: relative;
+        background: transparent;
+        z-index: 1001;
+        background: var(--main-color);
+    }
+
+    .main-header_dropdown_item:last-child {
+        padding-bottom: 18px;
+    }
+
+    .main-header_dropdown_item {
+        color: var(--color-white);
+        white-space: normal;
+    }
+
+    .main-header_dropdown_item:hover {
+        color: var(--color-dark-gray);
+    }
+
+    .main-header_dropdown::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    :root {
+        --size-heading: 45px;
+        --size-big-heading: 76px;
+        --size-small-heading: 30px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    :root {
+        --size-heading: 45px;
+        --size-big-heading: 76px;
+        --size-small-heading: 30px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .main-help_item {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    :root {
+        --size-heading: 45px;
+        --size-big-heading: 76px;
+        --size-small-heading: 30px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .main-smm_item,
+    .main-smm_item:nth-child(2) {
+        width: 100%;
+    }
+
+    .main-smm_item:nth-child(2) {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    :root {
+        --size-heading: 42px;
+        --size-big-heading: 64px;
+        --size-small-heading: 28px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .preloader .preloader-container .animated-preloader,
+    .preloader .preloader-container .animated-preloader:after,
+    .preloader .preloader-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-contact_item {
+        width: 100%;
+    }
+
+    .main-contact_item:nth-child(2) {
+        margin-top: 40px;
+    }
+
+    .main-contact_item img {
+        width: 100%;
+    }
+
+    .main-h-contact_us_item {
+        width: 100%;
+    }
+
+    .main-h-contact_us_item:nth-child(2) {
+        width: 100%;
+    }
+
+    .main-h-contact_us_socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-hero_form {
+        position: fixed;
+        z-index: 1001;
+        background: var(--color-dark-gray);
+        border-radius: 20px;
+        padding: 20px;
+        padding-top: 40px;
+        width: 70%;
+        top: -1020px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.05),
+            inset 0px 22px 35px rgba(255, 255, 255, 0.25);
+    }
+}
+
+@media screen and (max-width:600px) {
+    :root {
+        --size-heading: 36px;
+        --size-big-heading: 52px;
+        --size-small-heading: 26px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .main-start_project_item {
+        width: 100%;
+    }
+
+    .main-start_project_item:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .main-help_item {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .main-help_list {
+        margin-top: 0;
+    }
+
+    .main-hero_partners_info,
+    .main-smm_video {
+        width: 100%;
+    }
+
+    .main-partners::before {
+        left: -300px;
+        top: 70px;
+    }
+
+    .main-smm {
+        margin-top: 50px;
+    }
+
+    .main-hero_form.opened {
+        top: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+
+    .swiper-achievement {
+        width: 100%;
+    }
+
+    .main-achievement_swiper_button-prev {
+        left: 0;
+    }
+
+    .main-achievement_swiper_button-next {
+        right: 0;
+    }
+
+    .main-problem_item {
+        width: 100%;
+    }
+
+    .main-problem_item:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .main-help_modal.opened {
+        width: 95%;
+    }
+
+    .main-why_list_item::before {
+        left: -20px;
+    }
+
+    .main-about,
+    .main-why,
+    .main-contact,
+    .main-h_contact_us {
+        padding-top: 60px;
+    }
+
+    .main-achievement {
+        padding-top: 0;
+    }
+
+    .main-contact {
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-top: 80px;
+    }
+
+    .main-achievement_heading {
+        white-space: normal;
+    }
+
+    .main-about_list {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .main-about_item {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    :root {
+        --size-heading: 30px;
+        --size-big-heading: 52px;
+        --size-small-heading: 24px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    #particles-js {
+        padding: 200px 0 0 0px !important;
+    }
+
+    .main-hero_form_heading {
+        margin-bottom: 0;
+    }
+
+    .main-hero_form.opened {
+        top: 50%;
+    }
+
+    .main-hero_form input {
+        width: 100%;
+    }
+
+    .main-hero_form textarea {
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 100px;
+        min-height: 50px;
+    }
+
+    .main-partners::before {
+        display: none;
+    }
+
+    .swiper-achievement {
+        width: 80%;
+    }
+
+    .main-achivement_carousel_second,
+    .main-achivement_carousel_first {
+        margin-top: 0;
+    }
+
+    .main-hero_up {
+        width: 50px;
+        height: 50px;
+        right: -50px;
+    }
+
+    .main-hero_up.scrolled {
+        right: 20px;
+    }
+
+    .main-hero_up.changed {
+        background: var(--color-dark-gray);
+    }
+
+    .main-achievement {
+        padding-top: 0;
+    }
+
+    .main-about_item {
+        margin-top: 40px;
+    }
+
+    .main-hero_item {
+        width: 100%;
+    }
+
+    .main-hero_form_wrapper input {
+        padding: 18px 18px 18px 10px;
+        border-radius: 0 10px 10px 0;
+        margin-bottom: 5px;
+        position: relative;
+        left: -2px;
+    }
+
+    .main-hero_form {
+        position: fixed;
+        z-index: 1001;
+        background: var(--color-dark-gray);
+        border-radius: 20px;
+        padding: 12px;
+        padding-top: 40px;
+        width: 90%;
+        top: -1020px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.05),
+            inset 0px 22px 35px rgba(255, 255, 255, 0.25);
+    }
+}
+
+@media screen and (max-width:400px) {
+    :root {
+        --size-heading: 24px;
+        --size-big-heading: 40px;
+        --size-small-heading: 20px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
+    .main-achievement_heading {
+        font-size: var(--size-small-heading);
+    }
+
+    .main-achivement_carousel_second .swiper-slide img {
+        width: 100%;
+    }
+
+    .main-hero_form_heading {
+        font-size: var(--size-small-heading);
+    }
+
+    .main-hero_form_info_wrapper label {
+        font-size: var(--size-small-text);
+    }
+
+    .main_hero_form_name {
+        font-size: var(--size-small-text) !important;
+    }
+
+    .main_hero_form_phone_num {
+        font-size: var(--size-small-text) !important;
+    }
+}

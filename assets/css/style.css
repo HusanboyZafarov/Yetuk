@@ -587,6 +587,11 @@ header.scrolled .logo img {
     top: 4px;
 }
 
+.main-hero_item a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
 .main-hero_contact_btn {
     padding: 15px 20px;
     font-size: var(--size-text);
@@ -615,7 +620,7 @@ header.scrolled .logo img {
     z-index: 1001;
     background: var(--color-dark-gray);
     border-radius: 20px;
-    padding: 50px;
+    padding: 30px;
     top: -1020px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1522,7 +1527,7 @@ footer p {
 
 .main-help_modal {
     position: fixed;
-    top: -650px;
+    top: -1200px;
     left: 50%;
     width: 500px;
     transform: translateX(-50%);
@@ -1571,7 +1576,7 @@ footer p {
 .main-help_modal_info {
     margin-top: 10px;
     text-align: center;
-    font-size: var(--size-big-text);
+    font-size: var(--size-average-text);
 }
 
 .main-help_modal_info b {
@@ -1816,4 +1821,11 @@ footer p {
     padding: 18px;
     font-size: var(--size-text);
     border-radius: 10px 0 0 10px;
+}
+
+#course {
+    padding-top: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }

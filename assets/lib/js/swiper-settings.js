@@ -167,10 +167,11 @@ const swiper_achievement_slider_third = new Swiper('.swiper-achievement_third', 
 const swiper_hero = new Swiper('.swiper_hero', {
     direction: 'horizontal',
     loop: true,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    speed: 3200,
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: true,
+    },
     slidesPerView: 1,
     spaceBetween: 20,
 });

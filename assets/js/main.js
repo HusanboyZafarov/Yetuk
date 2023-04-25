@@ -260,13 +260,14 @@ help_modal_btn_wrapper_btns.addEventListener("click", () => {
 })
 
 let hero_form_label = document.querySelectorAll(".main-hero_form_label")
+let hero_form_input = document.querySelectorAll(".main-hero_form_inputs")
 
 hero_form_label.forEach((element) => {
     element.addEventListener("click", () => {
         element.classList.toggle("selected")
+        element.nextElementSibling.classList.toggle("selected")
     })
 });
-
 let hero_form_wrapper_p = document.querySelector(".main-hero_form_wrapper p")
 let hero_form_wrapper_input = document.querySelector(".main-hero_form_wrapper input")
 
@@ -294,31 +295,4 @@ window.addEventListener("resize", () => {
 
 window.addEventListener("scroll", () => {
     hero_list_first.style.height = `${hero_list_second.getBoundingClientRect().height}px`
-})
-
-let course_opener = document.querySelectorAll(".course_opener")
-let course = document.querySelector("#course")
-start_project = document.querySelector('.main-start_project')
-course_opener.forEach((element) => {
-    element.addEventListener("click", () => {
-        course.style.marginTop = `100px`
-        course.style.paddingBottom = `50px`
-        course.style.maxHeight = `${course.scrollHeight + 100}px`
-    })
-});
-
-window.addEventListener("scroll", () => {
-    if (course.getBoundingClientRect().height) {
-        window.addEventListener("resize", () => {
-            course.style.marginTop = `100px`
-            course.style.paddingBottom = `50px`
-            course.style.maxHeight = `${course.scrollHeight + 100}px`
-        })
-
-        window.addEventListener("scroll", () => {
-            course.style.marginTop = `100px`
-            course.style.paddingBottom = `50px`
-            course.style.maxHeight = `${course.scrollHeight + 100}px`
-        })
-    }
 })

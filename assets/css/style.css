@@ -987,6 +987,7 @@ header.scrolled .logo img {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
+    padding-bottom: 20px;
     position: relative;
 }
 
@@ -1574,6 +1575,10 @@ footer p {
     padding: 24px 30px;
 }
 
+.main-help_modal i {
+    display: none;
+}
+
 .main-help_modal.opened {
     top: 150px;
 }
@@ -1694,6 +1699,13 @@ footer p {
     margin-top: 20px;
     font-size: var(--size-small-heading);
     color: var(--color-dark-gray);
+}
+
+.main-problem_item h2 {
+    margin-top: 20px;
+    font-size: var(--size-big-text);
+    color: var(--color-dark-gray);
+    font-family: 'M Bold';
 }
 
 .main-solution {

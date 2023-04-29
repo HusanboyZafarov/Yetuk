@@ -22,26 +22,6 @@
         width: 600px;
         height: 600px;
     }
-}
-
-
-@media screen and (max-width:1100px) {
-    :root {
-        --main-color: #09BD00;
-        --color-yellow: #F1D302;
-        --color-purple: #5863F8;
-        --color-dark-blue: #0B3954;
-        --color-white: #EEF0F2;
-        --color-dark: #171D1C;
-        --color-dark-gray: #4A525A;
-        --color-black-gray: #24272B;
-        --size-heading: 45px;
-        --size-big-heading: 76px;
-        --size-small-heading: 30px;
-        --size-text: 16px;
-        --size-big-text: 18px;
-        --size-small-text: 14px;
-    }
 
     .main-header_navigation_list {
         flex-direction: column;
@@ -139,6 +119,27 @@
     .main-header_dropdown::before {
         display: none;
     }
+}
+
+
+@media screen and (max-width:1100px) {
+    :root {
+        --main-color: #09BD00;
+        --color-yellow: #F1D302;
+        --color-purple: #5863F8;
+        --color-dark-blue: #0B3954;
+        --color-white: #EEF0F2;
+        --color-dark: #171D1C;
+        --color-dark-gray: #4A525A;
+        --color-black-gray: #24272B;
+        --size-heading: 45px;
+        --size-big-heading: 76px;
+        --size-small-heading: 30px;
+        --size-text: 16px;
+        --size-big-text: 18px;
+        --size-small-text: 14px;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
